@@ -5,9 +5,7 @@ import plotly.express as px
 from sklearn.cluster import KMeans
 
 df = pd.read_csv('/Users/hieu/Documents/untitled folder/py4ai-score.csv')
-#print(df)
 
-#print(df.isna().sum())
 
 df['S1'].fillna(0, inplace=True)
 df['S2'].fillna(0, inplace=True)
@@ -23,7 +21,7 @@ df['BONUS'].fillna(0, inplace=True)
 df['REG-MC4AI'].fillna('N', inplace=True)
 
 
-#print(df.isna().sum())
+
 
 CLASS_GROUP = []
 for i in df.index:
@@ -237,13 +235,4 @@ with tab3:
     st.write('(Group', i,')', 'Highest GPA:', np.max(stats),'Lowest GPA:', np.min(stats), 'Average:', np.round_(np.average(stats),1))
     st.dataframe(df3[['NAME','GENDER','CLASS','PYTHON-CLASS','ASM','S10','GPA']],use_container_width=True)
                  
-
-
-
-
-
-#sáng dậy làm nốt nút download, vẽ biểu đồ + phân nhóm
-#thêm tabs
-#trình bày
-#xem git
 

@@ -7,7 +7,7 @@ Các thông tin được phân tích:
 - Project gồm 3 chức năng chính:
 1. Filter: Lọc Data
   - Cho phép xem data gốc và một số info của data gốc
-  - Có các bộ lọc để nguơi dùng có thể lấy ra được danh sách học sin mong muốn:
+  - Có các bộ lọc để nguơi dùng có thể lấy ra được danh sách học sinh mong muốn:
     Các bộ lọc gồm: Gender (F/M), Class (114-S, 114-C, 115-S, 115-C), Group (10 khối lớp), Grade(10/11) và GPA
   - Ngoài ra còn có nút download để tải data đã lọc về máy
 
@@ -27,8 +27,8 @@ Các thông tin được phân tích:
       Có đi kèm danh sách học sinh pass/fail
       
 3. Classification: Phân loại
-  Cho phép lựa chọn số nhóm muốn chia
-  Sư dụng KMeans từ scikit-learn để phân loại học sinh
-  Biểu đồ scatter 3D thể hiện điểm học sinh gồm (TB ASM, Final và GPA)
-  In ra danh sách học sinh của từng nhóm + điểm cao nhất/thấp nhất/trung bình của từng nhóm
+  - Cho phép lựa chọn số nhóm muốn chia
+  - Sử dụng KMeans từ scikit-learn để phân loại học sinh
+  - Biểu đồ scatter 3D thể hiện điểm học sinh gồm (TB ASM, Final và GPA)
+  - In ra danh sách học sinh của từng nhóm + điểm cao nhất/thấp nhất/trung bình của từng nhóm
 

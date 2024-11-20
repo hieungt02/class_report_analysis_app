@@ -1,11 +1,16 @@
 # Hieu_mc4ai_project
 
 /HOW TO RUN/
+
 Download the files and keep the dataset file and the applicationtest.py in the same folder
-Run command: streamlit run applicationtest.py
+
+Run command: **streamlit run applicationtest.py**
 
 
+
+--------------------
 English:
+
 Dataset used: file py4ai-score.csv
 
 My dataset includes columns: NAME, GENDER, CLASS, PYTHON-CLASS, S1 to S10, BONUS, GPA, REG-MC4AI
@@ -38,6 +43,7 @@ The project has 3 main functionalities:
 - A 3D scatter displaying the students' grades (ASM-Average, Final, GPA)
 - List of students in each group + highest/lowest/average scores of each group and a download function for each group
 
+-----------------
 Vietnamese:
 
 Dataset được sử dụng: file py4ai-score.csv

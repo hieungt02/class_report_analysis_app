@@ -1,4 +1,4 @@
-# Hieu_mc4ai_project
+# Class Report Analysis Application
 
 /HOW TO RUN/
 
